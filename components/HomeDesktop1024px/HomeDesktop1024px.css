@@ -1,0 +1,65 @@
+.homedesktop1024px {
+  background-color: var(--bunker);
+  height: 997px;
+  position: relative;
+  width: 1024px;
+}
+
+.footer {
+  left: 329px;
+  letter-spacing: 0;
+  line-height: 13px;
+  opacity: 0.8;
+  position: absolute;
+  top: 903px;
+  white-space: nowrap;
+}
+
+.all-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 57px;
+  position: absolute;
+  top: 126px;
+  width: 910px;
+}
+
+.text-and-buttons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 910px;
+}
+
+.remix-culture-title {
+  font-weight: 900;
+  letter-spacing: -0.49px;
+  line-height: 45px;
+  opacity: 0.97;
+  text-align: center;
+  width: 910px;
+}
+
+.explore-loops-and-sa {
+  font-weight: 600;
+  letter-spacing: 0.55px;
+  line-height: 21px;
+  margin-top: 16px;
+  opacity: 0.67;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.nav-bar-desktop {
+  align-items: center;
+  background-color: var(--bunker);
+  display: flex;
+  height: 64px;
+  left: 0;
+  min-width: 1024px;
+  padding: 0 25px;
+  position: fixed;
+  top: 0;
+}
+

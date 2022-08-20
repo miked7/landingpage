@@ -1,0 +1,68 @@
+.logotype_-main {
+  align-items: flex-end;
+  display: flex;
+  height: 20px;
+  min-width: 72px;
+}
+
+.path {
+  height: 12px;
+  margin-bottom: 2px;
+  width: 17px;
+}
+
+.shape {
+  align-self: center;
+  height: 17px;
+  margin-bottom: 1.0px;
+  margin-left: 3px;
+  width: 4px;
+}
+
+.overlap-group-2 {
+  height: 18px;
+  margin-bottom: -1.34px;
+  margin-left: 1px;
+  position: relative;
+  width: 18px;
+}
+
+.rectangle {
+  height: 4px;
+  left: -1px;
+  position: absolute;
+  top: 7px;
+  transform: rotate(-44.98deg);
+  width: 21px;
+}
+
+.rectangle-1 {
+  height: 21px;
+  left: 7px;
+  position: absolute;
+  top: -1px;
+  transform: rotate(-45deg);
+  width: 4px;
+}
+
+.path-1 {
+  height: 12px;
+  margin-bottom: 2px;
+  margin-left: 1px;
+  width: 17px;
+}
+
+.shape-1 {
+  align-self: flex-start;
+  height: 17px;
+  margin-left: 3px;
+  width: 4px;
+}
+
+.shape-2 {
+  height: 1px;
+  margin-bottom: 3px;
+  margin-left: 1px;
+  width: 3px;
+}
+

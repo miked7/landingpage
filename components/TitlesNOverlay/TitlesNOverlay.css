@@ -1,0 +1,32 @@
+.titles-n-overlay {
+  background-color: var(--woodsmoke-2);
+  height: 240px;
+  width: 240px;
+}
+
+.stacked-group {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 15px;
+  position: relative;
+  top: 89px;
+  width: 210px;
+}
+
+.artist-title {
+  font-weight: 600;
+  letter-spacing: 0.30px;
+  line-height: 39px;
+  white-space: nowrap;
+}
+
+.artist-description {
+  font-weight: 500;
+  letter-spacing: 0.11px;
+  line-height: 14px;
+  margin-top: 8px;
+  opacity: 0.83;
+  white-space: nowrap;
+}
+

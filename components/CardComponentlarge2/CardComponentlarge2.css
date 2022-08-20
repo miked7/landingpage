@@ -1,0 +1,48 @@
+.card-component-custom-copy {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/62f73889f3486458d6da1f0a/releases/62f738a2bd749d8c6a9eb2f4/img/home-1024-image-placeholder-5BFB9654-0064-4C09-BE36-F1192AD2CCE4.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  min-width: 240px;
+}
+
+.overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--woodsmoke);
+  display: flex;
+  min-width: 240px;
+}
+
+.titles-n-overlay-1 {
+  background-color: var(--woodsmoke-2);
+  height: 240px;
+  width: 240px;
+}
+
+.stacked-group-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 15px;
+  position: relative;
+  top: 89px;
+  width: 210px;
+}
+
+.artist-title-1 {
+  font-weight: 600;
+  letter-spacing: 0.30px;
+  line-height: 39px;
+  width: 210px;
+}
+
+.artist-description-1 {
+  font-weight: 500;
+  letter-spacing: 0.11px;
+  line-height: 14px;
+  margin-top: 8px;
+  opacity: 0.83;
+  white-space: nowrap;
+}
+

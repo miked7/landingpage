@@ -1,0 +1,13 @@
+.content-grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  width: 720px;
+}
+
+.x-row {
+  display: flex;
+  height: 240px;
+  position: relative;
+}
+

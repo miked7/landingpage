@@ -1,0 +1,22 @@
+.card-component-custom-1 {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  min-width: 240px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  background-color: var(--woodsmoke);
+  display: flex;
+  height: 240px;
+  min-width: 240px;
+  position: relative;
+}
+
+.card-component-custom-1.card-component-custom {
+  cursor: unset;
+}
+

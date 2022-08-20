@@ -1,0 +1,384 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://fonts.googleapis.com/css?family=Inter:400,700,900,500,600";
+@font-face {
+  font-family: SFProText-Semibold;
+  font-weight: 600;
+  src: url("https://fonts.animaapp.com/SFProText-Semibold") format("opentype");
+}
+
+@font-face {
+  font-family: SFProText-Medium;
+  font-weight: 500;
+  src: url("https://fonts.animaapp.com/SFProText-Medium") format("opentype");
+}
+
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-horizontal {
+  pointer-events: none;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --anakiwa: #8cfbf5e0;
+  --black-white: #fffef8;
+  --bunker: #101316;
+  --hint-of-red: #fbfaf8;
+  --log-cabin: #212121;
+  --white: #fff;
+  --woodsmoke: #11101053;
+  --woodsmoke-2: #1110104b;
+  --font-size-s3: 11px;
+  --font-size-xs: 12px;
+  --font-size-xxl2: 18px;
+  --font-size-xxxl2: 32.5px;
+  --font-size-xxxxl: 60px;
+  --font-family-helvetica: "Helvetica", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-sfprotext-medium: "SFProText-Medium", Helvetica;
+  --font-family-sfprotext-semibold: "SFProText-Semibold", Helvetica;
+}
+
+.sfprotext-semi-bold-black-white-32-5px {
+  color: var(--black-white);
+  font-family: var(--font-family-sfprotext-semibold);
+  font-size: var(--font-size-xxxl2);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.sfprotext-medium-black-white-12px {
+  color: var(--black-white);
+  font-family: var(--font-family-sfprotext-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.helvetica-normal-white-11px {
+  color: var(--white);
+  font-family: var(--font-family-helvetica);
+  font-size: var(--font-size-s3);
+}
+
+.inter-black-hint-of-red-60px {
+  color: var(--hint-of-red);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.inter-semi-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl2);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-bold-log-cabin-18px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+
+.button-primary-40px {
+  background-color: var(--anakiwa);
+  cursor: pointer;
+  height: 40px;
+  min-width: 220px;
+  border-radius: 4px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 32px;
+  padding: 8px 21px;
+  display: flex;
+}
+
+.label {
+  letter-spacing: 0;
+  min-height: 21px;
+  min-width: 177px;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.titles-n-overlay {
+  background-color: var(--woodsmoke-2);
+  height: 240px;
+  width: 240px;
+}
+
+.stacked-group {
+  width: 210px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  top: 89px;
+  left: 15px;
+}
+
+.artist-title {
+  letter-spacing: .3px;
+  white-space: nowrap;
+  font-weight: 600;
+  line-height: 39px;
+}
+
+.artist-description {
+  letter-spacing: .11px;
+  opacity: .83;
+  white-space: nowrap;
+  margin-top: 8px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.card-component-custom-1 {
+  cursor: pointer;
+  min-width: 240px;
+  background-position: 50%;
+  background-size: cover;
+  align-items: flex-start;
+  display: flex;
+}
+
+.overlap-group {
+  background-color: var(--woodsmoke);
+  height: 240px;
+  min-width: 240px;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.card-component-custom-1.card-component-custom {
+  cursor: unset;
+}
+
+.card-component-custom-copy {
+  min-width: 240px;
+  background-image: url("https://anima-uploads.s3.amazonaws.com/projects/62f73889f3486458d6da1f0a/releases/62f738a2bd749d8c6a9eb2f4/img/home-1024-image-placeholder-5BFB9654-0064-4C09-BE36-F1192AD2CCE4.jpg");
+  background-position: 50%;
+  background-size: cover;
+  align-items: flex-start;
+  display: flex;
+}
+
+.overlap-group-1 {
+  background-color: var(--woodsmoke);
+  min-width: 240px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.titles-n-overlay-1 {
+  background-color: var(--woodsmoke-2);
+  height: 240px;
+  width: 240px;
+}
+
+.stacked-group-1 {
+  width: 210px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  top: 89px;
+  left: 15px;
+}
+
+.artist-title-1 {
+  letter-spacing: .3px;
+  width: 210px;
+  font-weight: 600;
+  line-height: 39px;
+}
+
+.artist-description-1 {
+  letter-spacing: .11px;
+  opacity: .83;
+  white-space: nowrap;
+  margin-top: 8px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.content-grid {
+  width: 720px;
+  flex-direction: column;
+  margin-top: 32px;
+  display: flex;
+}
+
+.x-row {
+  height: 240px;
+  display: flex;
+  position: relative;
+}
+
+.logotype_-main {
+  height: 20px;
+  min-width: 72px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.path {
+  height: 12px;
+  width: 17px;
+  margin-bottom: 2px;
+}
+
+.shape {
+  height: 17px;
+  width: 4px;
+  align-self: center;
+  margin-bottom: 1px;
+  margin-left: 3px;
+}
+
+.overlap-group-2 {
+  height: 18px;
+  width: 18px;
+  margin-bottom: -1.34px;
+  margin-left: 1px;
+  position: relative;
+}
+
+.rectangle {
+  height: 4px;
+  width: 21px;
+  position: absolute;
+  top: 7px;
+  left: -1px;
+  transform: rotate(-44.98deg);
+}
+
+.rectangle-1 {
+  height: 21px;
+  width: 4px;
+  position: absolute;
+  top: -1px;
+  left: 7px;
+  transform: rotate(-45deg);
+}
+
+.path-1 {
+  height: 12px;
+  width: 17px;
+  margin-bottom: 2px;
+  margin-left: 1px;
+}
+
+.shape-1 {
+  height: 17px;
+  width: 4px;
+  align-self: flex-start;
+  margin-left: 3px;
+}
+
+.shape-2 {
+  height: 1px;
+  width: 3px;
+  margin-bottom: 3px;
+  margin-left: 1px;
+}
+
+.homedesktop1024px {
+  background-color: var(--bunker);
+  height: 997px;
+  width: 1024px;
+  position: relative;
+}
+
+.footer {
+  letter-spacing: 0;
+  opacity: .8;
+  white-space: nowrap;
+  line-height: 13px;
+  position: absolute;
+  top: 903px;
+  left: 329px;
+}
+
+.all-content {
+  width: 910px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 126px;
+  left: 57px;
+}
+
+.text-and-buttons {
+  width: 910px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.remix-culture-title {
+  letter-spacing: -.49px;
+  opacity: .97;
+  text-align: center;
+  width: 910px;
+  font-weight: 900;
+  line-height: 45px;
+}
+
+.explore-loops-and-sa {
+  letter-spacing: .55px;
+  opacity: .67;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 16px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.nav-bar-desktop {
+  background-color: var(--bunker);
+  height: 64px;
+  min-width: 1024px;
+  align-items: center;
+  padding: 0 25px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=index.e1b8c111.css.map */

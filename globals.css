@@ -1,0 +1,43 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,900,500,600");
+@font-face {
+  font-family: "SFProText-Semibold";
+  font-weight: 600;
+  src: url("https://fonts.animaapp.com/SFProText-Semibold") format("opentype");
+}
+@font-face {
+  font-family: "SFProText-Medium";
+  font-weight: 500;
+  src: url("https://fonts.animaapp.com/SFProText-Medium") format("opentype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
