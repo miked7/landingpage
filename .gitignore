@@ -8,9 +8,11 @@ scripts/flow/*/.flowconfig
 _SpecRunner.html
 __benchmarks__
 build/
+dist/
 remote-repo/
 coverage/
 .module-cache
+.parcel-cache
 fixtures/dom/public/react-dom.js
 fixtures/dom/public/react.js
 test/the-files-to-test.generated.js
@@ -23,6 +25,7 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
+.
 
 packages/react-devtools-core/dist
 packages/react-devtools-extensions/chrome/build
