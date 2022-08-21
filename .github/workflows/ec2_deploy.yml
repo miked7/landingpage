@@ -22,5 +22,5 @@ jobs:
          REMOTE_HOST: ${{ secrets.EC2_HOST }}
          REMOTE_USER: ${{ secrets.EC2_USERNAME }}
          SOURCE: "./dist/"
-         TARGET: "/var/www/landingpage/"
+         TARGET: ${{ secrets.EC2_TARGET }}
          ARGS: "-rltgoDzvO --delete"
