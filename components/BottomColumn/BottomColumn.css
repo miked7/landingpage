@@ -1,0 +1,7 @@
+.bottom-column,
+.bottom-column-1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+

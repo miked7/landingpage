@@ -1,0 +1,87 @@
+.card-component-custom-8 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 295px;
+}
+
+.overlap-group-9 {
+  height: 240px;
+  position: relative;
+  width: 295px;
+}
+
+.image-placeholder {
+  height: 240px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+.primary-overlay {
+  background-color: var(--woodsmoke-3);
+  height: 240px;
+  left: 0;
+  opacity: 0.32;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+.titles-n-overlay-9 {
+  height: 240px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 295px;
+}
+
+.second-overlay {
+  background-color: var(--woodsmoke-3);
+  height: 240px;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 240px;
+}
+
+.stacked-group-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 15px;
+  position: absolute;
+  top: 89px;
+  width: 280px;
+}
+
+.artist-title-4 {
+  font-weight: 600;
+  letter-spacing: 0.30px;
+  line-height: 39px;
+  white-space: nowrap;
+}
+
+.artist-description-4 {
+  font-weight: 500;
+  letter-spacing: 0.11px;
+  line-height: 14px;
+  margin-top: 8px;
+  opacity: 0.83;
+  white-space: nowrap;
+}
+
+.card-component-custom-8.card-component-custom-6,
+.card-component-custom-8.card-component-custom-7,
+.card-component-custom-8.card-component-custom-7-1 {
+  cursor: unset;
+}
+
+.card-component-custom-8.card-component-custom-7 .artist-description-4 {
+  white-space: unset;
+  width: 210px;
+}
+

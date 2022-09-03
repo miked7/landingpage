@@ -1,6 +1,6 @@
 import React from "react";
 import CardComponentlarge from "../CardComponentlarge";
-import CardComponentlarge2 from "../CardComponentlarge2";
+import BottomRow from "../BottomRow";
 import "./ContentGrid.css";
 
 function ContentGrid(props) {
@@ -8,15 +8,15 @@ function ContentGrid(props) {
     cardComponentlarge1Props,
     cardComponentlarge2Props,
     cardComponentlarge3Props,
-    cardComponentlarge4Props,
-    cardComponentlarge5Props,
+    cardComponentlarge1Props2,
   } = props;
 
   return (
-    <div className="content-grid">
-      <div className="x-row">
+    <div className="content-grid-3">
+      <div className="top-row-2">
         <CardComponentlarge
           cardComponentCustom={cardComponentlarge1Props.cardComponentCustom}
+          className={cardComponentlarge1Props.className}
           titlesNOverlayProps={cardComponentlarge1Props.titlesNOverlayProps}
         />
         <CardComponentlarge
@@ -30,19 +30,10 @@ function ContentGrid(props) {
           titlesNOverlayProps={cardComponentlarge3Props.titlesNOverlayProps}
         />
       </div>
-      <div className="x-row">
-        <CardComponentlarge2 />
-        <CardComponentlarge
-          cardComponentCustom={cardComponentlarge4Props.cardComponentCustom}
-          className={cardComponentlarge4Props.className}
-          titlesNOverlayProps={cardComponentlarge4Props.titlesNOverlayProps}
-        />
-        <CardComponentlarge
-          cardComponentCustom={cardComponentlarge5Props.cardComponentCustom}
-          className={cardComponentlarge5Props.className}
-          titlesNOverlayProps={cardComponentlarge5Props.titlesNOverlayProps}
-        />
-      </div>
+      <BottomRow
+        cardComponentlarge1Props={cardComponentlarge1Props2.cardComponentlarge1Props}
+        cardComponentlarge2Props={cardComponentlarge1Props2.cardComponentlarge2Props}
+      />
     </div>
   );
 }

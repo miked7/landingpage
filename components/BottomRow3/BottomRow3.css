@@ -1,0 +1,7 @@
+.bottom-row-2,
+.bottom-row-3 {
+  display: flex;
+  height: 239px;
+  position: relative;
+}
+

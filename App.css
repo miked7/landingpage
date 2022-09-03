@@ -1,0 +1,39 @@
+.content-1024 {
+    display: inline;
+}
+
+.content-768 {
+    display: none;
+}
+
+.content-360 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .content-1024 {
+        display: none;
+    }
+
+    .content-768 {
+        display: inline;
+    }
+    
+    .content-360 {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .content-1024 {
+        display: none;
+    }
+
+    .content-768 {
+        display: none;
+    }
+    
+    .content-360 {
+        display: inline;
+    }
+}

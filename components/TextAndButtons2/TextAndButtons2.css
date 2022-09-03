@@ -1,0 +1,26 @@
+.text-and-buttons-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+}
+
+.remix-culture-title-3 {
+  font-weight: 900;
+  letter-spacing: -2.39px;
+  line-height: 53px;
+  opacity: 0.97;
+  text-align: center;
+  width: 766px;
+}
+
+.explore-loops-and-sa-5 {
+  font-weight: 600;
+  letter-spacing: 0.55px;
+  line-height: 21px;
+  margin-top: 8px;
+  opacity: 0.67;
+  text-align: center;
+  white-space: nowrap;
+}
+

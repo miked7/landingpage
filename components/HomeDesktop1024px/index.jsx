@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonPrimary40px from "../ButtonPrimary40px";
-import ContentGrid from "../ContentGrid";
+import CardComponentlarge from "../CardComponentlarge";
+import BottomRow from "../BottomRow";
 import LogotypeMainCopy3x from "../LogotypeMainCopy3x";
 import "./HomeDesktop1024px.css";
 
@@ -10,7 +11,10 @@ function HomeDesktop1024px(props) {
     remixCultureTitle,
     exploreLoopsAndSa,
     buttonPrimary40pxProps,
-    contentGridProps,
+    cardComponentlarge1Props,
+    cardComponentlarge2Props,
+    cardComponentlarge3Props,
+    bottomRowProps,
     logotypeMainCopy3xProps,
   } = props;
 
@@ -24,13 +28,28 @@ function HomeDesktop1024px(props) {
             <div className="explore-loops-and-sa inter-semi-bold-white-18px">{exploreLoopsAndSa}</div>
           </div>
           <ButtonPrimary40px>{buttonPrimary40pxProps.children}</ButtonPrimary40px>
-          <ContentGrid
-            cardComponentlarge1Props={contentGridProps.cardComponentlarge1Props}
-            cardComponentlarge2Props={contentGridProps.cardComponentlarge2Props}
-            cardComponentlarge3Props={contentGridProps.cardComponentlarge3Props}
-            cardComponentlarge4Props={contentGridProps.cardComponentlarge4Props}
-            cardComponentlarge5Props={contentGridProps.cardComponentlarge5Props}
-          />
+          <div className="content-grid">
+            <div className="top-row">
+              <CardComponentlarge
+                cardComponentCustom={cardComponentlarge1Props.cardComponentCustom}
+                titlesNOverlayProps={cardComponentlarge1Props.titlesNOverlayProps}
+              />
+              <CardComponentlarge
+                cardComponentCustom={cardComponentlarge2Props.cardComponentCustom}
+                className={cardComponentlarge2Props.className}
+                titlesNOverlayProps={cardComponentlarge2Props.titlesNOverlayProps}
+              />
+              <CardComponentlarge
+                cardComponentCustom={cardComponentlarge3Props.cardComponentCustom}
+                className={cardComponentlarge3Props.className}
+                titlesNOverlayProps={cardComponentlarge3Props.titlesNOverlayProps}
+              />
+            </div>
+            <BottomRow
+              cardComponentlarge1Props={bottomRowProps.cardComponentlarge1Props}
+              cardComponentlarge2Props={bottomRowProps.cardComponentlarge2Props}
+            />
+          </div>
         </div>
         <div className="nav-bar-desktop">
           <LogotypeMainCopy3x

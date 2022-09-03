@@ -1,0 +1,29 @@
+.menu-link-new-copy-3 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 64px;
+  padding: 0 10.3px;
+}
+
+.contact {
+  font-weight: 600;
+  letter-spacing: 0.67px;
+  line-height: 12px;
+  min-height: 12px;
+  min-width: 42px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.menu-link-new-copy-3.menu-link-new-copy-3-1 {
+  margin-left: 24px;
+  min-width: 70px;
+  padding: 0 6.3px;
+}
+
+.menu-link-new-copy-3.menu-link-new-copy-3-1 .contact {
+  min-width: 57px;
+}
+

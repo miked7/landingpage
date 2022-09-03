@@ -1,0 +1,79 @@
+.hometablet768px-all-breakpoints {
+  background-color: var(--bunker-2);
+  height: 1024px;
+  position: relative;
+  width: 768px;
+}
+
+.footer-2 {
+  left: 143px;
+  letter-spacing: 0;
+  line-height: 13px;
+  opacity: 0.8;
+  position: absolute;
+  top: 998px;
+  white-space: nowrap;
+}
+
+.all-content-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 120px;
+  width: 768px;
+}
+
+.text-and-buttons-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+}
+
+.remix-culture-title-1 {
+  font-weight: 900;
+  letter-spacing: -2.39px;
+  line-height: 39px;
+  opacity: 0.97;
+  text-align: center;
+  width: 766px;
+}
+
+.explore-loops-and-sa-2 {
+  font-weight: 600;
+  letter-spacing: 0.55px;
+  line-height: 21px;
+  margin-top: 8px;
+  opacity: 0.67;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.content-grid-2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  position: relative;
+  width: 720px;
+}
+
+.top-row-1 {
+  display: flex;
+  height: 241px;
+  position: relative;
+}
+
+.nav-bar-tablet {
+  align-items: center;
+  background-color: var(--bunker);
+  display: flex;
+  height: 64px;
+  left: 0;
+  min-width: 756px;
+  padding: 0 19px;
+  position: fixed;
+  top: 0;
+}
+

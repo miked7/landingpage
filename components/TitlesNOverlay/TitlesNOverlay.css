@@ -1,4 +1,4 @@
-.titles-n-overlay {
+.titles-n-overlay-4 {
   background-color: var(--woodsmoke-2);
   height: 240px;
   width: 240px;
@@ -28,5 +28,11 @@
   margin-top: 8px;
   opacity: 0.83;
   white-space: nowrap;
+}
+
+.titles-n-overlay-4.titles-n-overlay-2 .artist-description,
+.titles-n-overlay-4.titles-n-overlay-3 .artist-description {
+  white-space: unset;
+  width: 210px;
 }
 

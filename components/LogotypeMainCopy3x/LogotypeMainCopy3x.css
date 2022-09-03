@@ -11,7 +11,7 @@
   width: 17px;
 }
 
-.shape {
+.shape-2 {
   align-self: center;
   height: 17px;
   margin-bottom: 1.0px;
@@ -19,7 +19,7 @@
   width: 4px;
 }
 
-.overlap-group-2 {
+.overlap-group-8 {
   height: 18px;
   margin-bottom: -1.34px;
   margin-left: 1px;
@@ -52,17 +52,106 @@
   width: 17px;
 }
 
-.shape-1 {
+.shape-3 {
   align-self: flex-start;
   height: 17px;
   margin-left: 3px;
   width: 4px;
 }
 
-.shape-2 {
+.shape-4 {
   height: 1px;
   margin-bottom: 3px;
   margin-left: 1px;
   width: 3px;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy,
+.logotype_-main.logotype_-main-copy3x-copy-1 {
+  align-items: flex-start;
+  min-width: 71px;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy .path,
+.logotype_-main.logotype_-main-copy3x-copy-1 .path {
+  align-self: center;
+  margin-bottom: unset;
+  margin-top: 2.0px;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy .shape-2,
+.logotype_-main.logotype_-main-copy3x-copy-1 .shape-2 {
+  align-self: unset;
+  margin-bottom: unset;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy .overlap-group-8,
+.logotype_-main.logotype_-main-copy3x-copy-1 .overlap-group-8 {
+  align-self: flex-end;
+  height: 17px;
+  margin-bottom: 0.51px;
+  width: 17px;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy .rectangle,
+.logotype_-main.logotype_-main-1 .rectangle,
+.logotype_-main.logotype_-main-copy3x-copy-1 .rectangle,
+.logotype_-main.logotype_-main-3 .rectangle {
+  left: -2px;
+  top: 6px;
+  width: 20px;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy .rectangle-1,
+.logotype_-main.logotype_-main-1 .rectangle-1,
+.logotype_-main.logotype_-main-copy3x-copy-1 .rectangle-1,
+.logotype_-main.logotype_-main-3 .rectangle-1 {
+  height: 20px;
+  left: 6px;
+  top: -2px;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy .path-1,
+.logotype_-main.logotype_-main-copy3x-copy-1 .path-1 {
+  align-self: center;
+  margin-bottom: unset;
+  margin-left: 2px;
+  margin-top: 2.0px;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy .shape-4,
+.logotype_-main.logotype_-main-copy3x-copy-1 .shape-4 {
+  align-self: flex-end;
+}
+
+.logotype_-main.logotype_-main-1,
+.logotype_-main.logotype_-main-3 {
+  min-width: 71px;
+}
+
+.logotype_-main.logotype_-main-1 .overlap-group-8,
+.logotype_-main.logotype_-main-3 .overlap-group-8 {
+  height: 17px;
+  margin-bottom: -0.49px;
+  width: 17px;
+}
+
+.logotype_-main.logotype_-main-1 .path-1,
+.logotype_-main.logotype_-main-3 .path-1 {
+  margin-left: 2px;
+}
+
+.logotype_-main.logotype_-main-1 .shape-4,
+.logotype_-main.logotype_-main-3 .shape-4 {
+  margin-left: unset;
+}
+
+.logotype_-main.logotype_-main-copy3x-copy .shape-3,
+.logotype_-main.logotype_-main-copy3x-copy-1 .shape-3 {
+  align-self: unset;
+  height: 17px;
+  margin-bottom: unset;
+  margin-left: 3px;
+  width: 4px;
 }
 

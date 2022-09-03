@@ -51,6 +51,20 @@
   white-space: nowrap;
 }
 
+.content-grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  position: relative;
+  width: 720px;
+}
+
+.top-row {
+  display: flex;
+  height: 240px;
+  position: relative;
+}
+
 .nav-bar-desktop {
   align-items: center;
   background-color: var(--bunker);

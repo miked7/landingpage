@@ -1,0 +1,58 @@
+.home1024 {
+  background-color: var(--bunker);
+  height: 997px;
+  position: relative;
+  width: 1024px;
+}
+
+.footer-3 {
+  left: 329px;
+  letter-spacing: 0;
+  line-height: 13px;
+  opacity: 0.8;
+  position: absolute;
+  top: 903px;
+  white-space: nowrap;
+}
+
+.all-content-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 57px;
+  position: absolute;
+  top: 122px;
+  width: 910px;
+}
+
+.nav-bar-desktop-1 {
+  height: 64px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1024px;
+}
+
+.login-and-hamburger-menu {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  left: 533px;
+  position: absolute;
+  top: 0;
+}
+
+.menu-items {
+  display: flex;
+  height: 64px;
+  position: relative;
+}
+
+.button-and-hamburger {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  margin-left: 24px;
+  position: relative;
+}
+

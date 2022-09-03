@@ -1,4 +1,4 @@
-.card-component-custom-1 {
+.card-component-custom-4 {
   align-items: flex-start;
   background-position: 50% 50%;
   background-size: cover;
@@ -16,7 +16,18 @@
   position: relative;
 }
 
-.card-component-custom-1.card-component-custom {
+.card-component-custom-4.card-component-custom,
+.card-component-custom-4.card-component-custom-2 {
   cursor: unset;
+}
+
+.card-component-custom-4.card-component-custom-1,
+.card-component-custom-4.card-component-custom-3 {
+  cursor: unset;
+  min-width: unset;
+}
+
+.card-component-custom-4.card-component-custom-5 {
+  min-width: unset;
 }
 

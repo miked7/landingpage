@@ -1,0 +1,35 @@
+.icon-menu {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 24px;
+  min-width: 21px;
+  padding: 0 2px;
+}
+
+.fill {
+  height: 11px;
+  width: 16px;
+}
+
+.icon-menu.icon-menu-1 {
+  cursor: pointer;
+  height: 20px;
+  margin-left: 229px;
+  min-width: 20px;
+}
+
+.icon-menu.icon-menu-1 .fill {
+  height: 10px;
+  width: 15px;
+}
+
+.icon-menu.icon-menu-2 {
+  cursor: pointer;
+  justify-content: flex-end;
+  left: 693px;
+  margin-left: unset;
+  position: absolute;
+  top: 22px;
+}
+

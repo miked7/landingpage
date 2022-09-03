@@ -8,11 +8,15 @@ function CardComponentlarge(props) {
   return (
     <a href="https://lunardrive.mixmi.app/" target="_blank">
       <div
-        className={`card-component-custom-1 ${className || ""}`}
+        className={`card-component-custom-4 ${className || ""}`}
         style={{ backgroundImage: `url(${cardComponentCustom})` }}
       >
         <div className="overlap-group">
-          <TitlesNOverlay title={titlesNOverlayProps.title} kenyanBasedSinger={titlesNOverlayProps.kenyanBasedSinger} />
+          <TitlesNOverlay
+            title={titlesNOverlayProps.title}
+            kenyanBasedSinger={titlesNOverlayProps.kenyanBasedSinger}
+            className={titlesNOverlayProps.className}
+          />
         </div>
       </div>
     </a>

@@ -1,0 +1,14 @@
+.content-grid-4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  position: relative;
+  width: 240px;
+}
+
+.top-column-1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+

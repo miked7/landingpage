@@ -21,3 +21,35 @@
   white-space: nowrap;
 }
 
+.button-primary-40px.button-primary-large-default {
+  margin-top: 64px;
+}
+
+.button-primary-40px.button-primary-large-default-1 {
+  cursor: unset;
+  justify-content: unset;
+}
+
+.button-primary-40px.button-primary-40px-1 {
+  min-width: 145px;
+}
+
+.button-primary-40px.button-primary-40px-1 .label,
+.button-primary-40px.button-primary-large-default-2 .label,
+.button-primary-40px.button-primary-large-default-3 .label {
+  min-width: 102px;
+}
+
+.button-primary-40px.button-primary-large-default-2 {
+  cursor: unset;
+  min-width: 149px;
+  padding: 8px 23px;
+}
+
+.button-primary-40px.button-primary-large-default-3 {
+  cursor: unset;
+  justify-content: unset;
+  min-width: 149px;
+  padding: 8px 23px;
+}
+
